@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///project/sandbox/user-workspace/src/app/phimhay/styles.css"],"sourcesContent":[".container {\n  max-width: 1200px;\n  margin: 0 auto;\n  padding: 20px;\n  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n  color: #333;\n  background-color: #fff;\n}\n\n.header {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  margin-bottom: 40px;\n}\n\n.logo {\n  width: 150px;\n  height: auto;\n  margin-bottom: 10px;\n}\n\n.tagline {\n  font-size: 1.2rem;\n  font-weight: 600;\n  text-align: center;\n  color: #222;\n}\n\n.main-content {\n  display: flex;\n  flex-direction: column;\n  gap: 20px;\n}\n\n.movie-listings {\n  display: grid;\n  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));\n  gap: 15px;\n}\n\n.movie-listings h2 {\n  grid-column: 1 / -1;\n  font-size: 1.5rem;\n  margin-bottom: 10px;\n}\n\n.footer {\n  text-align: center;\n  margin-top: 60px;\n  font-size: 0.9rem;\n  color: #666;\n  border-top: 1px solid #ddd;\n  padding-top: 15px;\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;;AASA;;;;;;;AAOA;;;;;;AAMA;;;;;;;AAOA;;;;;;AAMA;;;;;;AAMA;;;;;;AAMA","debugId":null}}]
+}
