@@ -1,0 +1,59 @@
+/* [project]/src/app/phimhay/styles.css [app-client] (css) */
+.container {
+  color: #333;
+  background-color: #fff;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  text-align: center;
+  color: #222;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.main-content {
+  flex-direction: column;
+  gap: 20px;
+  display: flex;
+}
+
+.movie-listings {
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 15px;
+  display: grid;
+}
+
+.movie-listings h2 {
+  grid-column: 1 / -1;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.footer {
+  text-align: center;
+  color: #666;
+  border-top: 1px solid #ddd;
+  margin-top: 60px;
+  padding-top: 15px;
+  font-size: .9rem;
+}
+
+
+/*# sourceMappingURL=src_app_phimhay_styles_bcc4c643.css.map*/
